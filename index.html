@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davis Kathungu Software Engineer</title>
+
+    <!-- css links -->
+    <link rel="stylesheet" href="./Assets/Css/bootstrap.min.css">
+    <link rel="stylesheet" href="./Assets/Css/aos.css">
+    <link rel="stylesheet" href="./Assets/Css/line-awesome.min.css">
+    <link rel="stylesheet" href="./Assets/Css/style.css">
+
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container flex-lg-column">
+            <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
+                <span class="h3 fw-bold d-block d-lg-none">Davis Kathungu</span>
+                <img src="./Assets/Images/imag-removebg-preview1.png" class="d-none d-lg-block rounded-circle" alt="ME">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#expertise">expertise</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact" >Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper">
+
+        <!-- Home Section -->
+        <section id="home" class="full-height px-lg-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                         <h1 class="display-4 fw-bold" data-aos="fade-up">I'M A <span class="text-brand">SOFTWARE ENGINEER</span> FROM NAIROBI, KENYA</h1>
+                         <P class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">I am Davis Kathungu and I craft high perfoming, delightful, experience tailored and conversion focused websites</P>
+                         <div data-aos="fade-up" data-aos-delay="600">
+                            <a href="#work" class="btn btn-brand me-3">Explore My Work</a>
+                            <a href="tel:+254758247556" class="link-custom">Call: (+254) 758247556</a><br><br>
+                            <a href="https://drive.google.com/file/d/141VXJMi0u3gvj7r3uhoG_hHaFJdpGET_/" class="btn btn-brand me-3">Download CV</a>
+                         </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="full-height px-lg-5">
+            <div class="container">
+                <div class="row pb-4" data-aos="fade-up">
+                    <div class="col-lg-8">
+                        <h6 class="text-brand">SERVICES</h6>
+                        <h1>Services That I Provide</h1>
+                    </div>
+                </div>
+            
+                <div class="row gy-4">
+                    <div class="col-md-4" data-aos="fade-up">
+                        <div class="service p-4 bg-base rounded-4 shadow-effect">
+                            <div class="iconbox rounded-4">
+                                <i class="las la-feather"></i>
+                            </div>
+                            <h5 class="mt-4 mb-2">UX Design</h5>
+                            <p id="uxDesignShort">I specialize in creating user-centered designs that enhance usability, accessibility, and engagement.</p>
+                            <p id="uxDesignFull" style="display: none;">I craft seamless digital experiences that drive user satisfaction and business success.</p>
+                            <a href="#" class="link-custom" onclick="toggleText(event, 'uxDesignShort', 'uxDesignFull')">Read More</a>
+                        </div>
+                    </div>
+            
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service p-4 bg-base rounded-4 shadow-effect">
+                            <div class="iconbox rounded-4">
+                                <i class="las la-pencil-ruler"></i>
+                            </div>
+                            <h5 class="mt-4 mb-2">Branding</h5>
+                            <p id="brandingShort">I create compelling brand identities that communicate values, build trust, and leave a lasting impression.</p>
+                            <p id="brandingFull" style="display: none;">Through strategic design, storytelling, and visual consistency, I help businesses stand out and connect with their audience effectively.</p>
+                            <a href="#" class="link-custom" onclick="toggleText(event, 'brandingShort', 'brandingFull')">Read More</a>
+                        </div>
+                    </div>
+            
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+                        <div class="service p-4 bg-base rounded-4 shadow-effect">
+                            <div class="iconbox rounded-4">
+                                <i class="las la-laptop-code"></i>
+                            </div>
+                            <h5 class="mt-4 mb-2">Web Designing</h5>
+                            <p id="webDesignShort">I design visually stunning, user-friendly and responsive websites that enhance user experience and drive engagement.</p>
+                            <p id="webDesignFull" style="display: none;">My approach blends aesthetics with functionality to create intuitive, high-performing web solutions tailored to your brand’s needs.</p>
+                            <a href="#" class="link-custom" onclick="toggleText(event, 'webDesignShort', 'webDesignFull')">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <br><br>
+            
+                <div class="row gy-4">
+                    <div class="col-md-4" data-aos="fade-up">
+                        <div class="service p-4 bg-base rounded-4 shadow-effect">
+                            <div class="iconbox rounded-4">
+                                <i class="las la-feather"></i>
+                            </div>
+                            <h5 class="mt-4 mb-2">Graphic Design</h5>
+                            <p id="graphicDesignShort">I design visually compelling graphics, logos, brochures and marketing materials that help brands communicate their message effectively.</p>
+                            <p id="graphicDesignFull" style="display: none;">From concept to completion, I craft unique visual identities that reflect your brand's values and resonate with your target audience. Whether it's print or digital, my designs are focused on enhancing your brand’s presence.</p>
+                            <a href="#" class="link-custom" onclick="toggleText(event, 'graphicDesignShort', 'graphicDesignFull')">Read More</a>
+                        </div>
+                    </div>
+            
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service p-4 bg-base rounded-4 shadow-effect">
+                            <div class="iconbox rounded-4">
+                                <i class="las la-pencil-ruler"></i>
+                            </div>
+                            <h5 class="mt-4 mb-2">SEO Optimization</h5>
+                            <p id="seoOptimizationShort">I help businesses improve their online visibility through targeted SEO strategies that boost search engine rankings and drive organic traffic.</p>
+                            <p id="seoOptimizationFull" style="display: none;">By conducting in-depth keyword research, optimizing on-page elements and building quality backlinks, I ensure your website ranks higher in search results and attracts relevant traffic, leading to increased conversions and growth.</p>
+                            <a href="#" class="link-custom" onclick="toggleText(event, 'seoOptimizationShort', 'seoOptimizationFull')">Read More</a>                            
+                        </div>
+                    </div>
+            
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+                        <div class="service p-4 bg-base rounded-4 shadow-effect">
+                            <div class="iconbox rounded-4">
+                                <i class="las la-laptop-code"></i>
+                            </div>
+                            <h5 class="mt-4 mb-2">Cybersecurity Solutions</h5>
+                            <p id="cybersecurityShort">I provide comprehensive cybersecurity solutions to safeguard your business from digital threats ensuring protection of sensitive data and systems.</p>
+                            <p id="cybersecurityFull" style="display: none;">Through proactive risk assessments, threat detection and mitigation, secure system implementation and data encryption, I help businesses mitigate risks, prevent data breaches and maintain a secure online presence, ensuring the safety of both your business and customer data.</p>
+                            <a href="#" class="link-custom" onclick="toggleText(event, 'cybersecurityShort', 'cybersecurityFull')">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+
+        </section>
+
+        <!-- Work Section -->
+        <section id="work" class="full-height px-lg-5">
+            <div class="container">
+                
+                <div class="row pb-4" data-aos="fade-up">
+                    <div class="col-lg-8">
+                        <h6 class="text-brand">WORK</h6>
+                        <h1>My Recent Projects</h1>
+                    </div>
+                </div>
+
+                <div class="row gy-4">
+
+                    <div class="col-md-6" data-aos="fade-up">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./Assets/Images/landing page.png" alt="">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <h4>Startup Landing Page</h4>
+                                <p>The Startup Landing Page is designed to make a strong first impression on visitors and quickly convey your startup’s value proposition. This landing page acts as a gateway for potential customers, investors, and partners to learn about your business and what you offer. With a clean, modern design, and engaging content, it highlights your products, services, and core mission.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./Assets/Images/auctioning system.png" alt="">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <h4>Auctioning System</h4>
+                                <p>Our Auctioning System provides a seamless and secure platform for buyers and sellers to participate in real-time auctions. Designed for both individual and business users, this system allows for easy listing of items, bidding, and management of auctions. Users can place bids on various products or services, track the status of their bids, and receive timely notifications about their auction outcomes.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6" data-aos="fade-up">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./Assets/Images/ecommerce system.png" alt="">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <h4>Ecommerce System</h4>
+                                <p>Our E-commerce System provides an innovative, user-friendly platform designed to sell both books and online courses seamlessly. This integrated system combines the convenience of digital learning with the timeless appeal of reading, offering customers an easy way to browse, purchase, and access their favorite books and educational content.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./Assets/Images/security system.png" alt="">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <h4>Security System</h4>
+                                <p>Our Security System is designed to protect your assets, data, and infrastructure with cutting-edge technology and real-time monitoring. Whether you're securing your home, office, or entire enterprise, this system provides robust solutions for preventing, detecting, and responding to security threats.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- About -->
+        <section id="about" class="full-height px-lg-5">
+            <div class="container">
+                
+                <div class="row pb-4" data-aos="fade-up">
+                    <div class="col-lg-8">
+                        <h6 class="text-brand">ABOUT</h6>
+                        <h1>My Education & Experience</h1>
+                    </div>
+                </div>
+
+                <div class="row gy-5">
+                    <div class="col-lg-6">
+
+                        <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">Education</h3>
+                        <div class="row gy-4">
+
+                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>Bachelor in Business and Information Technology</h4>
+                                    <p class="text-brand mb-2">Mount Kenya University (2021 - 2024)</p>
+                                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis dicta itaque unde est possimus veritatis</p>
+                                </div>
+                            </div>
+
+                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>Digital Literacy Skills</h4>
+                                    <p class="text-brand mb-2">Nairobits Trust (July - December 2023)</p>
+                                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis dicta itaque unde est possimus veritatis</p>
+                                </div>
+                            </div>
+
+                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>Web Development Fundamentals</h4>
+                                    <p class="text-brand mb-2">Somokoder Organization (March - June 2024)</p>
+                                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis dicta itaque unde est possimus veritatis</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-6">
+
+                        <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">Experience</h3>
+                        <div class="row gy-4">
+
+                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>Applications Developer</h4>
+                                    <p class="text-brand mb-2">Mount Kenya University (2021 - 2024)</p>
+                                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis dicta itaque unde est possimus veritatis</p>
+                                </div>
+                            </div>
+
+                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>Bachelor in Business and Information Technology</h4>
+                                    <p class="text-brand mb-2">Mount Kenya University (2021 - 2024)</p>
+                                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis dicta itaque unde est possimus veritatis</p>
+                                </div>
+                            </div>
+
+                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>Bachelor in Business and Information Technology</h4>
+                                    <p class="text-brand mb-2">Mount Kenya University (2021 - 2024)</p>
+                                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis dicta itaque unde est possimus veritatis</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>    
+
+        <!-- Expertise -->
+        <section id="expertise" class="full-height px-lg-5">
+            <div class="container">
+                <div class="row pb-4" data-aos="fade-up">
+                    <div class="col-lg-8">
+                        <h6 class="text-brand">EXPERTISE</h6>
+                        <h1>My Areas of Expertise</h1>
+                    </div>
+                </div>
+        
+                <div class="row gy-4">
+        
+                    <!-- Expertise in HTML & CSS -->
+                    <div class="col-md-6" data-aos="fade-up">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./Assets/Images/html-css.png" alt="HTML & CSS Expertise">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <h4>HTML & CSS</h4>
+                                <p>With extensive knowledge in HTML and CSS, I specialize in creating responsive and visually appealing websites. From simple landing pages to complex web applications, I ensure optimal structure, design, and user experience across all devices.</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Expertise in PHP -->
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./Assets/Images/php.png" alt="PHP Expertise">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <h4>PHP Development</h4>
+                                <p>As a PHP expert, I create dynamic and scalable web applications. From backend functionality to full-stack development, I use PHP to deliver secure and high-performance solutions that meet your business needs.</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Expertise in JavaScript -->
+                    <div class="col-md-6" data-aos="fade-up">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./Assets/Images/javascript.png" alt="JavaScript Expertise">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <h4>JavaScript</h4>
+                                <p>Specializing in JavaScript, I build interactive and feature-rich web applications. Using frameworks like React, Angular, and Vue.js, I create smooth, dynamic user interfaces and seamless client-side experiences.</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Expertise in SEO -->
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./Assets/Images/seo.png" alt="SEO Expertise">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <h4>SEO Optimization</h4>
+                                <p>With in-depth knowledge of SEO best practices, I help businesses increase their online visibility. From keyword research to on-page and off-page optimization, I ensure your website ranks high in search engine results.</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Expertise in Digital Marketing -->
+                    <div class="col-md-6" data-aos="fade-up">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./Assets/Images/digital-marketing.png" alt="Digital Marketing Expertise">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <h4>Digital Marketing</h4>
+                                <p>My expertise in digital marketing covers a wide range of strategies, including content marketing, social media campaigns, email marketing, and paid advertising. I help businesses connect with their target audience and increase conversions.</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Expertise in Databases -->
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./Assets/Images/databases.png" alt="Database Expertise">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <h4>Database Management</h4>
+                                <p>With expertise in database management, I design and optimize relational and non-relational databases. Whether you're using MySQL, PostgreSQL, or NoSQL, I ensure efficient data storage, retrieval, and security for your applications.</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Expertise in Cybersecurity -->
+                    <div class="col-md-6" data-aos="fade-up">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./Assets/Images/cybersecurity.png" alt="Cybersecurity Expertise">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <h4>Cybersecurity Solutions</h4>
+                                <p>With a strong foundation in cybersecurity, I help businesses safeguard their data and systems. From threat detection to encryption and risk management, I ensure your digital assets remain secure from potential cyber-attacks.</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+        </section>        
+
+        <!-- Contact -->
+        <section id="contact" class="full-height px-lg-5">
+            <div class="container">
+                
+                <div class="row justify-content-center text-center" data-aos="fade-up">
+                    <div class="col-lg-8 pb-4" data-aos="fade-up">
+                        <h6 class="text-brand">CONTACT</h6>
+                        <h1>Interested in working together? let's talk</h1>
+                    </div>
+
+                    <div class="col-lg-8" data-aos="fade-up" data-aos-delay="300">
+                        <form action="#" class="row g-lg-3 gy-3">
+                           
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" placeholder="Enter your name" required>
+                            </div>
+
+                            <div class="form-group col-md-6">
+                                <input type="email" class="form-control" placeholder="Enter your email" required>
+                            </div>
+
+                            <div class="form-group col-12">
+                                <input type="text" class="form-control" placeholder="Enter subject" required>
+                            </div>
+
+                            <div class="form-group col-12">
+                                <textarea name="" rows="4" class="form-control" placeholder="Enter your message"></textarea>
+                            </div>
+
+                            <div class="form-group col-12 d-grid">
+                                <button type="submit" class="btn btn-brand">Contact Me</button>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </section>  
+
+        <!-- Footer -->
+        <footer class="py-5 px-lg-5">
+            <div class="container">
+                <div class="row gy-4 justify-content-between">
+
+                    <div class="col-auto">
+                        <p class="mb-0">Copyright © 2024. All rights reserved</p>
+                    </div>
+
+                    <div class="col-auto">
+                        <div class="social-icons">
+                            <a href="#"><i class="lab la-github"></i></a>
+                            <a href="#"><i class="lab la-discord"></i></a>
+                            <a href="#"><i class="lab la-instagram"></i></a>
+                            <a href="#"><i class="lab la-twitter"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+    
+    </div>
+
+    <!-- Javascripts Links -->
+    <script src="./Assets/Js/bootstrap.bundle.min.js"></script>
+    <script src="./Assets/Js/aos.js"></script>
+    <script src="./Assets/Js/main.js"></script>
+
+    <script>
+        function toggleText(event, shortId, fullId) {
+            event.preventDefault();
+    
+            const shortText = document.getElementById(shortId);
+            const fullText = document.getElementById(fullId);
+    
+            if (fullText.style.display === "none") {
+                fullText.style.display = "block";
+                shortText.style.display = "none";
+                event.target.innerText = "Read Less";  
+            } else {
+                fullText.style.display = "none";
+                shortText.style.display = "block";
+                event.target.innerText = "Read More";  
+            }
+        }
+    </script>
+
+</body>
+</html>
